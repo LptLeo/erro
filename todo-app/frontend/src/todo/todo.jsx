@@ -5,7 +5,7 @@ import PageHeader from '../template/pageHeader.jsx'
 import TodoForm from './todoForm.jsx'
 import TodoList from './todoList.jsx'
 
-const URL = 'https://localhost:3003/api/todos'
+const URL = 'http://localhost:3003/api/todos'
 
 export default class Todo extends Component {
     constructor(props) {
