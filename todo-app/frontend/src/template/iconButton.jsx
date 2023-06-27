@@ -1,10 +1,12 @@
-import React from "react"
-import If from "./if.jsx"
+import React from 'react'
+import If from '../template/If'
 
-export default props => (
+const IconButton = props => (
     <If test={!props.hide}>
-        <button className={"btn btn-" + props.style} onClick={props.onClick}>
-            <i className={"fa fa-" + props.icon}></i>
-        </button>
+            <button className={'btn btn-'+ props.btnStyle} onClick={props.onClick}>
+                <i className={'fa fa-'+ props.icon}></i>
+            </button>
     </If>
 )
+
+export default IconButton

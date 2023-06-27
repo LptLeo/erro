@@ -1,7 +1,9 @@
-import React from "react"
+import React from 'react'
 
-export default props => (
+const TodoList = props => (
     <div>
         <h1>List</h1>
     </div>
 )
+
+export default TodoList
